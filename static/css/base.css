@@ -1,1 +1,39 @@
-body {background:blue;}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    background: url('/media/images/purple-grapes.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    color: #140335;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+h1 {
+    font-weight: 500;
+    font-size: 2.3rem;
+    color: #140335;   
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+
+.footer-info {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #140335;
+}
